@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Alexander Kislov">
+    <meta name="copyright" content="Alexander Kislov">
+    <meta name="description" content="Workspace - Ecommerce Website">
+    <meta name="keywords" content="Workspace, design, furniture">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="msapplication-navbutton-color" content="#4285F4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4285F4">
+    <meta name="msapplication-TileColor" content="#603CBA">
+    <meta name="theme-color" content="#FFFFFF">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/meta/favicon-16x16.png">
+    <link rel="mask-icon" href="img/meta/safari-pinned-tab.svg" color="#5BBAD5">
+    <link rel="manifest" href="manifest.json">
+    <title>Workspace — Ecommerce Website</title>
+    <link rel="stylesheet" href="css/libs/libs.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  </head>
+  <body>
+    <div class="container-wrapper">
+      <header>
+        <div class="popup-search">
+          <div class="popup-text">
+            <div class="container">
+              <input type="search" name="top-menu-search" placeholder="Search...">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="header-wrapper">
+            <nav class="nav-drill"><a class="sign-in-nav" id="openModuleHamb" href="#sign-in"><i class="fas fa-sign-in-alt"></i></a>
+              <ul>
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/">Inspirations</a></li>
+                <li><a href="#/">Collections</a></li>
+                <li><a href="#/">Tutorials</a></li>
+              </ul>
+            </nav>
+            <div class="top-menu">
+              <div class="row">
+                <div class="col-6">
+                  <div class="top-menu-left">
+                    <div class="logo"><a href="index.html"><img src="img/branding/logo.svg" alt="Workspace - Ecommerce Website Logo"></a></div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="top-menu-right">
+                    <div class="search-menu"><a href="#/"><i class="fas fa-search" id="popupSearch"></i></a></div>
+                    <div class="sign-in-menu"><a id="openModule" href="#sign-in"><span class="sign-in">Sign in</span></a></div>
+                    <div class="burger-menu"><span class="hamburger" id="ham"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="search-area">
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <div class="intro-text">
+                    <h1>Need&nbsp;<span>inspiration</span>&nbsp;for your workspace?</h1>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="input-field">
+                    <input type="search" name="area-search" placeholder="Type product that you are looking for"><i class="fas fa-search fa-fw"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sign-in-modal" id="sign-in">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <div class="left-sign-in">
+                <h4>Sign in to your account</h4>
+                <form id="sign-in-form" method="get">
+                  <input type="email" name="email" placeholder="Email" requared>
+                  <input type="password" name="password" placeholder="Password" requared>
+                </form><a href="#/">
+                  <p>Forgot your password?</p></a>
+                <div class="log-in">
+                  <input class="sign-in-button" type="submit" form="sign-in-form" value="Log in"><a href="#/"><i class="fab fa-google-plus-g"></i></a><a href="#/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-sign-up">
+                <h4>Want to have more inspirations?</h4>
+              </div><a class="sign-up-button" href="index.html">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="content-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="editor-choices">
+                  <div class="flag"><i class="fas fa-check"></i></div><span>Editor’s Choices</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery">
+              <div class="row">
+                <div class="col-md-4 gallery-item">
+                  <div class="top"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-1.jpg"><img src="img/main/gallery/gallery-sm-1.jpg" alt="Gallery img table">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                  <div class="bot"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-4.jpg"><img src="img/main/gallery/gallery-sm-4.jpg" alt="Gallery img table with table lamp">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                </div>
+                <div class="col-md-4 gallery-item">
+                  <div class="top"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-2.jpg"><img src="img/main/gallery/gallery-sm-2.jpg" alt="Gallery img group of chairs">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                  <div class="bot"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-6.jpg"><img src="img/main/gallery/gallery-sm-6.jpg" alt="Gallery img tables with chairs">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                </div>
+                <div class="col-md-4 gallery-item">
+                  <div class="top"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-3.jpg"><img src="img/main/gallery/gallery-sm-3.jpg" alt="Gallery img flowers in pots">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                  <div class="mid"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-5.jpg"><img src="img/main/gallery/gallery-sm-5.jpg" alt="Gallery img group of tables">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                  <div class="bot"><a href="#/">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="img/main/gallery/gallery-7.jpg"><img src="img/main/gallery/gallery-sm-7.jpg" alt="Gallery img modern">
+                      </picture>
+                      <div class="caption-img">
+                        <div class="caption-text">
+                          <h2>Amazing Caption</h2>
+                          <p>Whatever It Is - Always Awesome</p>
+                        </div>
+                      </div></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-explore">
+              <div class="row justify-content-end">
+                <div class="col-md-auto"><a class="block-link" href="#/">Explore</a></div>
+              </div>
+            </div>
+            <div class="page-heading">
+              <h2>Inspiration Products</h2>
+              <p>Get your inspiration stuff here with best value</p>
+            </div>
+            <div class="desk-and-tables">
+              <div class="row justify-content-between">
+                <div class="col-12 col-lg-8">
+                  <div class="caption-table">
+                    <p>Desks &amp; Tables</p><a class="block-link" href="#/">Collection</a>
+                  </div>
+                  <div class="left-table"><img src="img/main/products/table.png" alt="Table"></div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-xl-4">
+                  <div class="get-all">
+                    <p>Get all collections</p><a class="link-hover" href="#/">Shop now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-5">
+                  <div class="caption-table caption-organizer">
+                    <p>Organizers</p><a class="block-link" href="#/">Collection</a>
+                  </div>
+                  <div class="left-organizer"><img src="img/main/products/organizer.png" alt="Organizer"></div>
+                </div>
+                <div class="col-12 col-lg-7 d-flex align-items-end">
+                  <div class="caption-table caption-chair">
+                    <p>Chairs</p><a class="block-link" href="#/">Collection</a>
+                  </div>
+                  <div class="right-chair"><img src="img/main/products/chair.png" alt="Chair"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-5">
+                  <div class="catalogs-tools justify-content-around">
+                    <div class="row">
+                      <div class="col-md-6 d-none d-md-block"><img src="img/main/products/catalog-sm.jpg" alt="Catalog"></div>
+                      <div class="col-md-6 d-flex justify-content-center align-items-center catalogs"><a href="#/">Catalogs</a></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 d-flex justify-content-center align-items-center planning-tools"><a href="#/">Planning tools</a></div>
+                      <div class="col-6 d-none d-md-block"><img src="img/main/products/tools-sm.jpg" alt="Tools"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                  <div class="caption-table caption-wall-sh">
+                    <p>Wall Shelves</p><a class="block-link" href="#/">Collection</a>
+                  </div>
+                  <div class="right-wall-sh"><img src="img/main/products/wall-shelve.png" alt="Wall Shelve"></div>
+                </div>
+              </div>
+            </div>
+            <div class="page-heading">
+              <h2>Workspace Tutorials</h2>
+              <p>Explore beautiful stories and tutorial from workspaces around the world</p>
+            </div>
+          </div>
+          <div class="workspace-tutorials">
+            <div class="owl-nav" id="owl-nav-outside"></div>
+            <div class="container">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="img/main/carousel/carousel-tutorial-sm-1.jpg"><img src="img/main/carousel/carousel-tutorial-1.jpg" alt="carousel Img 1">
+                  </picture>
+                  <div class="slide-caption">
+                    <h4>Cleaness</h4>
+                    <p>Make your workspace stay clean</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="img/main/carousel/carousel-tutorial-sm-2.jpg"><img src="img/main/carousel/carousel-tutorial-2.jpg" alt="carousel Img 2">
+                  </picture>
+                  <div class="slide-caption">
+                    <h4>Room</h4>
+                    <p>From messy room to perfect room</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="img/main/carousel/carousel-tutorial-sm-3.jpg"><img src="img/main/carousel/carousel-tutorial-3.jpg" alt="carousel Img 3">
+                  </picture>
+                  <div class="slide-caption">
+                    <h4>Design</h4>
+                    <p>Make your room work for you</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="img/main/carousel/carousel-tutorial-sm-4.jpg"><img src="img/main/carousel/carousel-tutorial-4.jpg" alt="carousel Img 4">
+                  </picture>
+                  <div class="slide-caption">
+                    <h4>Design</h4>
+                    <p>Make your room work for you</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="subcribe">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-6">
+                <p>Subcribe and get every week new inspirations for your workspace</p>
+              </div>
+              <div class="col-10 col-sm-6 col-lg-3">
+                <form>
+                  <input type="email" name="email" placeholder="Your email">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-wrapper">
+          <div class="row justify-content-center">
+            <div class="col-sm-10 col-lg-4">
+              <div class="left-side">
+                <div class="logo"><a href="index.html"><img src="img/branding/logo-white.svg" alt="Logo"></a></div>
+                <div class="description">
+                  <p>Your place for daily workspace inspiration. Member around the world uploading their workspace’s picture anytime.</p>
+                </div>
+                <div class="markets"><a href="#/"><img src="img/footer/google-play.png" alt="Google Play"></a><a href="#/"><img src="img/footer/app-store.png" alt="App Store"></a></div>
+                <div class="social"><a href="#/"><i class="fab fa-twitter"></i></a><a href="#/"><i class="fab fa-facebook-f"></i></a><a href="#/"><i class="fab fa-google-plus-g"></i></a><a href="#/"><i class="fab fa-tumblr"></i></a><a href="#/"><i class="fab fa-pinterest-p"></i></a><a href="#/"><i class="fab fa-linkedin-in"></i></a></div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-2 offset-lg-2 d-flex align-items-center justify-content-center">
+              <div class="learn-more">
+                <h4>Learn more</h4>
+                <ul>
+                  <li><a href="#/">How it works?</a></li>
+                  <li><a href="#/">Shipping / Returns</a></li>
+                  <li><a href="#/">Testimonials</a></li>
+                  <li><a href="#/">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-8 col-lg-4 d-flex align-items-center justify-content-center">
+              <div class="row w-100">
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                  <div class="learn-more">
+                    <h4>About us</h4>
+                    <ul>
+                      <li><a href="#/">Our Team</a></li>
+                      <li><a href="#/">Features</a></li>
+                      <li><a href="#/">Privacy police</a></li>
+                      <li><a href="#/">T &amp; C’s</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                  <div class="learn-more">
+                    <h4>Support</h4>
+                    <ul>
+                      <li><a href="#/">F.A.Q.</a></li>
+                      <li><a href="#/">Contact us</a></li>
+                      <li><a href="#/">Live chat</a></li>
+                      <li><a href="#/">Phone call</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="link-to-me">
+            <div class="row">
+              <div class="col"><a href="https://alexander-kislov.github.io/">Alexander Kislov</a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/libs/libs.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
